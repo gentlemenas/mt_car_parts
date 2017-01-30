@@ -1,0 +1,482 @@
+*{
+	margin:0px;
+	padding:0px;
+	outline: none;
+	
+	
+}
+
+h1{
+	font: bold 23px Tahoma, Geneva, sans-serif;
+	border-bottom: 2px solid #666;
+	text-align:center;
+	text-shadow: 0px 2px 1px #666;
+	color: #F00;
+	margin-bottom: 10px;
+	background-color:#CCC;
+	line-height: 40px;
+	border-radius: 7px 7px 0 0;
+	-moz-border-radius: 7px 7px 0 0;
+	-webkit-border-bottom-right-radius: 7px 7px 0 0;
+	-webkit-border-bottom-left-radius: 7px 7px 0 0;	
+}
+h1,h4 a:link {color: #F00;
+		text-decoration:none;}    /* unvisited link */
+h1,h4 a:visited {color: #F00;
+		 text-decoration:none;} /* visited link */
+h1,h4 a:hover {color: #E1DFDD;
+		text-decoration: underline;}   /* mouse over link */
+h1,h4 a:active {color: #F00;
+		text-decoration:none;}  /* selected link */
+
+
+h2{ font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align:left;
+	margin: 4px 5px 5px 10px;
+	position:relative;
+}
+
+h3{ font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#F00;
+    text-align:left;
+	text-shadow: 1px 0 2px #333;
+}
+h4{
+	font: bold 23px Tahoma, Geneva, sans-serif;
+	border-bottom: 2px solid #666;
+	text-align:center;
+	text-shadow: 0px 2px 1px #666;
+	color: #F00;
+	margin-bottom: 10px;
+	background-color:#CCC;
+	line-height: 40px;
+	border-radius: 0;
+	-moz-border-radius:0;
+	-webkit-border-bottom-right-radius: 0;
+	-webkit-border-bottom-left-radius: 0;	
+}
+
+h5{ font: bold 19px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: justify;
+	color: #161616;  
+	text-transform:uppercase;
+	margin: 4px 5px 5px 10px;}
+	
+h6 {font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+	margin: 4px 5px 5px 10px;
+	position:relative;	
+}
+
+
+
+
+/*h5{ font: bold 25px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #F00; 
+	margin: 15px 0 0 20px; 
+	marg
+    text-align:left;
+	text-shadow: 10px 20px 10px #333;
+}
+*/
+
+.color_red{
+	color:#F00;
+	font: bold;
+}
+.bold{
+	color:#000;
+	font: bold 17px "Lucida Console", Monaco, monospace;
+
+	
+
+}
+
+.border-top{
+	border-top: 2px solid #666;
+	margin-top: 6px;
+	padding-top: 6px;
+}
+
+
+header, section, footer, aside, nav, article, hgroup{
+	 display:block; 
+}
+
+body {
+	position:relative;
+	font: 13px/16px Arial, Tahoma, Verdana;
+	height:2000px;
+	width: auto;
+	display:-moz-box-pack;
+	-moz-box-pack:center;
+	display:-webkit-box;
+	-webkit-box-pack: center;
+	display: box;
+	box-pack: center;
+	background: url("https://dl.dropboxusercontent.com/u/80383295/MT-CAR-PARTS/pic/background.png");
+	
+
+
+	 
+}
+
+#big_wrapper{
+	width: 1150px;
+	position:relative;
+	min-height:1990px;
+	overflow:auto;
+	margin: auto;
+	border: 7px #333333 solid;
+	background:url("https://dl.dropboxusercontent.com/u/80383295/MT-CAR-PARTS/pic/backmain.png");
+	/*background: url("https://dl.dropboxusercontent.com/u/80383295/MT-CAR-PARTS/pic/background.png");*/
+
+}
+
+
+/*#small_wrapper{
+	border: 2px solid red;
+	height: 40px;
+	display:-moz-box;
+	
+	
+	
+}*/
+	
+#header{
+	height:250px;
+	background-color: #F0F0F0;
+	position:relative;
+	/*border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-bottom-right-radius: 5px 5px 0 0;
+	-webkit-border-bottom-left-radius: 5px 5px 0 0;	*/
+	overflow: hidden;
+	padding:10px;
+}
+
+.top{
+	border-right: 2px solid #CCC;
+	border-left: 2px solid #CCC;
+	display:inline;
+	margin-left: 5px;
+	overflow:hidden;
+	
+	}
+.top1{
+	border-right: 2px solid #CCC;
+	display:inline;
+	overflow: hidden;
+	
+	}
+#logo{
+	width: 750px;
+	height: 250px;
+	/*border:2px solid #000;*/
+	float:left;
+	background: url("https://dl.dropboxusercontent.com/u/80383295/MT-CAR-PARTS/css/logo.jpg") no-repeat;
+	 box-shadow: 0 0 8px 8px #333333;
+	-webkit-box-shadow: 0 0 8px 10px #333333;
+    -moz-box-shadow: 0 0 8px 8px #333333;
+	overflow: hidden;
+
+
+}
+
+
+
+#contacts{
+	width:355px;
+	height: 250px;
+	float:right;
+	outline:none;
+	overflow: hidden;
+	background: url("https://dl.dropboxusercontent.com/u/80383295/MT_CAR_PARTS/update%20info/contacts_LT.jpg") no-repeat;
+	 box-shadow: 0 0 8px 8px #333333;
+	-webkit-box-shadow: 0 0 8px 10px #333333;
+    -moz-box-shadow: 0 0 8px 8px #333333;
+	
+	
+		
+}
+
+
+.contRight a{
+	color: #000;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.contRight a:hover{
+	text-decoration: underline;
+	overflow: hidden;
+}
+
+.title1, .contRight {
+	font-size: 17px;
+	line-height: 17px;
+	text-transform: uppercase;
+	background: url("https://dl.dropboxuserontent.com/u/80383295/MT-CAR-PARTS/pic/bg_type1.gif") repeat-x;
+	padding: 2px 0 2px 0;
+	overflow: hidden;
+}
+
+
+
+.title1 p {
+	background: url("https://dl.dropboxusercontent.com/u/80383295/MT-CAR-PARTS/pic/bg_arrow1.png")  no-repeat;
+	padding: 2px 0 2px 27px;
+	display: block;
+	position: relative;
+	
+	
+	
+}
+
+.contPhone{
+	background: url("https://dl.dropboxusercontent.com/u/80383295/MT-CAR-PARTS/pic/bg_phone.gif") bottom right no-repeat;
+	padding: 0 0 13px 0;
+	margin:0 0 0 0;
+	overflow: hidden;
+}
+.contPhone p{
+	padding: 8px 0 5px 12px;
+	margin: 0 0 0 0;
+	font-size:17px;
+	overflow: hidden;
+	}
+
+.brd1{
+	border-bottom: 1px solid #a7a7a7;
+	overflow: hidden;
+}
+
+.contMail{
+	background: url("https://dl.dropboxusercontent.com/u/80383295/MT-CAR-PARTS/pic/bg_letter.gif") bottom right no-repeat;
+	padding: 0 0 0 0;
+	margin:0 0 0 0;
+	overflow: hidden;
+}
+.contMail p{
+	padding:20px 0 20px 12px;
+	margin: 0 0 0 0;
+	overflow: hidden;
+	
+}
+
+.contMail p a:link{
+	color:#000;	
+	overflow: hidden;	
+}
+
+.contSkype{
+	background:url("https://dl.dropboxusercontent.com/u/80383295/MT-CAR-PARTS/pic/bg_skype.gif") bottom right no-repeat;
+	padding:7px 0 7px 12px;
+	margin:0 0 0 0;
+	overflow: hidden;
+}
+.transparent{
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	overflow: hidden;
+}
+
+#top_menu{
+	background: url("https://dl.dropboxusercontent.com/u/80383295/MT-CAR-PARTS/pic/menu.png");
+	line-height: 15px;
+	overflow: hidden;
+}
+
+#top_menu li{
+	display:inline-block;
+	text-decoration:none;
+	list-style: none;
+	color:#FFF;
+	padding:8px;
+	padding-left: 10px;
+	font: bold 18px Tahoma, Geneva, sans-serif;
+	cursor:pointer;
+	overflow: hidden;
+		
+	
+}
+#top_menu li:hover{
+	color:#999;
+	text-decoration:none;
+	overflow: hidden;
+}
+
+#top_menu li a:link {color: #CCC;
+		text-decoration:none;overflow: hidden;}    /* unvisited link */
+		
+#top_menu li a:visited {color: #FFF;
+		 text-decoration:none;overflow: hidden;} /* visited link */
+#top_menu li a:hover {color: #CCC;
+		text-decoration:none;overflow: hidden;}   /* mouse over link */
+#top_menu li a:active {color: #FFF;
+		text-decoration:none;overflow: hidden;}  /* selected link */
+	
+	
+
+#new_div{
+	min-height: 410px;
+	min-width: 1100px;
+	display:-moz-box;
+	margin: 10px 10px 10px 38px;
+	-moz-box-orient: horizontal;
+	display:-webkit-box;
+	-webkit-box-orient: horizontal;
+	float: left;
+	position:relative;
+	overflow: hidden;
+}
+
+
+
+
+#side_news{
+	min-width: 1075px;
+	min-height: 400px;
+	margin: 20px 20px 10px 0px;
+	border: 3px solid #666;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	 box-shadow: 0 0 6px 4px #333333;
+	-webkit-box-shadow: 0 0 6px 4px #333333;
+    -moz-box-shadow: 0 0 6px 4px #333333;
+	background: url("https://dl.dropboxusercontent.com/u/80383295/MT-CAR-PARTS/pic/background.png");
+	float:left;
+	position:relative;
+	overflow: hidden;
+
+	
+}
+		
+
+#the_footer{
+	text-align: center;
+	padding: 20px;
+	height:125px;
+	border:3px solid #666;
+	border-radius: 0 0 5px 5px;
+	margin-top:50px;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-bottom-right-radius: 0 0 5px 5px;
+	-webkit-border-bottom-left-radius: 0 0 5px 5px;
+	overflow: hidden;
+}
+
+#other{overflow: hidden;
+}
+
+#post{
+	
+	min-height: 200px;
+	min-width: 1100px;
+	margin: 10px 10px 10px 30px;
+	display:-moz-box;
+	-moz-box-orient: horizontal;
+	display:-webkit-box;
+	-webkit-box-orient: horizontal;
+	float:right;
+	overflow: hidden;
+	
+}
+
+#shipping{
+	width: 655px;
+	height: 470px;
+	margin: 20px 20px 30px 0px;
+	border:3px solid #666;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	 box-shadow: 0 0 6px 4px #333333;
+	-webkit-box-shadow: 0 0 6px 4px #333333;
+    -moz-box-shadow: 0 0 6px 4px #333333;
+	float:left;
+	position:relative; 
+	background: url("https://dl.dropboxusercontent.com/u/80383295/MT_CAR_PARTS/update%20info/3.jpg");
+	background-size:contain;
+	overflow: hidden;
+
+
+}
+
+
+#returns{
+	width: 385px;
+	height: 472px;
+	margin: 20px 20px 30px 10px;
+	border:3px solid #666;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	 box-shadow: 0 0 6px 4px #333333;
+	-webkit-box-shadow: 0 0 6px 4px #333333;
+    -moz-box-shadow: 0 0 6px 4px #333333;
+	background: url("https://dl.dropboxusercontent.com/u/80383295/MT_CAR_PARTS/update%20info/4.jpg");
+	float:right;
+	position:relative;
+	overflow: hidden;
+	
+
+
+}
+
+#bord_paym{
+	min-height: 200px;
+	min-width: 1100px;
+	margin: 10px 10px 10px 30px;
+	display:-moz-box;
+	-moz-box-orient: horizontal;
+	display:-webkit-box;
+	-webkit-box-orient: horizontal;
+	overflow:none;
+	float:right;
+	overflow: hidden;
+	
+
+}
+
+#payment{
+	width: 655px;
+	height: 356px;
+	margin: 20px 20px 30px 0px;
+	border:3px solid #666;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	 box-shadow: 0 0 6px 4px #333333;
+	-webkit-box-shadow: 0 0 6px 4px #333333;
+    -moz-box-shadow: 0 0 6px 4px #333333;
+	background: url("https://dl.dropboxusercontent.com/u/80383295/MT_CAR_PARTS/update%20info/1.jpg");
+	
+	float:left;
+	position:relative;
+	overflow: hidden;
+}
+#feedbacks{
+	width: 385px;
+	height: 355px;
+	margin: 20px 20px 30px 10px;
+	border:3px solid #666;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	 box-shadow: 0 0 6px 4px #333333;
+	-webkit-box-shadow: 0 0 6px 4px #333333;
+    -moz-box-shadow: 0 0 6px 4px #333333;
+	background: url("https://dl.dropboxusercontent.com/u/80383295/MT_CAR_PARTS/update%20info/2.jpg");
+	float:right;
+	position:relative;
+	overflow: hidden;
+	
+
+	}
